@@ -31,6 +31,14 @@ Open http://192.168.0.109:5000/cakes in web browser to route site to cakes.
 192.168.0.109 - - [05/Dec/2021 12:17:57] "GET /cakes HTTP/1.1" 200 -
 ```
 
+### Generate CSS (a lot!)
+
+Generate CSS from Tailwindcss preprocessor directives, in addition to custom application CSS.
+
+```bash
+npx tailwindcss -i ./static/style.css -o ./static/main.css
+```
+
 ### Source
 
 - [Python web server with Flask](https://projects.raspberrypi.org/en/projects/python-web-server-with-flask/), Raspberry Pi

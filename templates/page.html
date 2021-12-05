@@ -1,7 +1,17 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href='/static/main.css' />
+  </head>
   <body>
-    <!-- replace key in curly brace with value from `templateData` dictonary -->
-    <h1>Hello, {{ title }}!</h1>
-    <span>Greeted at: {{ time }} </span>
+    <div class="container">
+      <!-- replace key in curly brace with value from `templateData` dictonary -->    
+      <div class="flex flex-col content-center items-center justify-center text-center h-screen">
+        <h1 class="font-bold text-lg leading-relaxed">Hello, {{ title }}!</h1>
+	<span>Greeted at: {{ time }} </span>
+      </div>
+    </div>
   </body>
 </html>

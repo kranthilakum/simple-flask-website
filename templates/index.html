@@ -1,11 +1,18 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <link rel="stylesheet" href='/static/style.css' />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='main.css') }}" />
   </head>
   <body>
-    <h1>My website</h1>
-    <a href="hello/john">Greetings John!</a>
+    <div class="container">
+      <div class="flex flex-col content-center items-center justify-center text-center h-screen">
+        <h1 class="font-bold text-lg leading-relaxed">Flask app!</h1>
+        <a class="underline text-blue-600 hover:text-blue-800 visited:text-purple-600" href="hello/john">Greetings John!</a>
+	<a class="underline text-blue-600 hover:tex-blue-800 visited:text-purple-600" href="{{ url_for('cakes') }}">Eat a Cake!</a>
+      </div>
+    </div>
   </body>
 </html>
 
