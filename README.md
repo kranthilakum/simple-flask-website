@@ -22,3 +22,8 @@ Open http://192.168.0.109:5000/ in web browser.
 192.168.0.109 - - [05/Dec/2021 12:11:58] "GET /favicon.ico HTTP/1.1" 404 -
 ```
 
+Open http://192.168.0.109:5000/cakes in web browser to route site to cakes.
+
+```bash
+192.168.0.109 - - [05/Dec/2021 12:17:57] "GET /cakes HTTP/1.1" 200 -
+```
