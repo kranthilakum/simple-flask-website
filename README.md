@@ -4,6 +4,7 @@ Run app.py in terminal
 
 ```bash
 python app.py
+
  * Serving Flask app "app" (lazy loading)
  * Environment: production
    WARNING: This is a development server. Do not use it in a production deployment.
@@ -17,7 +18,7 @@ python app.py
  * Debugger PIN: 899-605-522
 ```
 
-Open http://192.168.0.109:5000/ in web browser.
+Open localhost:5000 or http://192.168.0.109:5000 in web browser.
 
 ```bash
 192.168.0.109 - - [05/Dec/2021 12:11:58] "GET / HTTP/1.1" 200 -
